@@ -7,10 +7,30 @@
     <title>Horror movie</title>
   </head>
   <body>
-    <header></header>
+    <header>
+       <h1 id="up">Movie-Star</h1>
+        <section>
+        <input type="search" placeholder="please search here" name="search">
+        <button type="submit"><a href="index.html">search</a></button>
+        <a href="SignUp.html" target="_blank"><button type="button">sign up</button></a>
+        </section>
+        <section>
+        <nav>
+            
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Horror</a></li>
+                <li><a href="#">European Films</a></li>
+                <li><a href="#">Cinema History</a></li>
+                <li><a href="#">Biography</a></li>
+            </ul>
+        </nav>
+        </section>
+        <hr>
+    </header>
     <hr />
     <main>
-      <h2>5 Scariest Horror Movies Ever</h2>
+      <h2>【5 Scariest Horror Movies Ever】</h2>
       <ul>
         <li><a href="#film1">5←→Psycho (1960)</a></li>
         <li><a href="#film2">4←→Get Out (2017)</a></li>
@@ -193,11 +213,42 @@
         <form>
           <fieldset>
             <legend>❈Few question❈</legend>
-            <input type="" /><lable></lable>
+            <label>Do you like horror movies?</label>
+            <br />
+            <label for="yes">❇Of course</label
+            ><input type="radio" name="like" id="yes" value="yes" />
+
+            <label for="soso">❇Kind of</label>
+            <input type="radio" name="like" id="soso" value="soso" />
+
+            <label for="no">❇Not at all</label>
+            <input type="radio" name="like" id="no" value="no" />
+            <br />
+            <label>Which of the above films have you seen?</label>
+            <br />
+            <label for="number1">❈US (2019)</label
+            ><input type="checkbox" name="film" id="number1" value="number1" />
+            <label for="number2">❈The Texas Chainsaw Massacre (1974)</label
+            ><input type="checkbox" name="film" id="number2" value="number2" />
+            <label for="number3">❈A Quiet Place (2018)</label
+            ><input type="checkbox" name="film" id="number3" value="number3" />
+            <label for="number4">❈Get Out (2017)</label
+            ><input type="checkbox" name="film" id="number4" value="number4" />
+            <label for="number5">❈Psycho (1960)</label
+            ><input type="checkbox" name="film" id="number5" value="number5" />
+            <br />
+            <input type="submit" value="Submit" />
           </fieldset>
         </form>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <section>
+            <nav>
+            <pre>                                                                                          <a href="#"><strong>About Us</strong></a><span>.......<a href="#"><strong>Contact</strong></a><span>.......</span><a
+                        href="#"><strong>Privacy</strong></a></pre>
+            </nav>
+        </section>
+    </footer>
   </body>
 </html>
